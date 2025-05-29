@@ -1,0 +1,39 @@
+.tasks-layout {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: system-ui, sans-serif;
+}
+
+.tasks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.tasks-header h1 {
+  margin: 0;
+  font-size: 1.75rem;
+  color: #333;
+}
+
+.tasks-header nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #0070f3;
+  font-weight: 500;
+}
+
+.tasks-header nav a:hover {
+  text-decoration: underline;
+}
+
+.tasks-content {
+  background: #fafafa;
+  padding: 1rem;
+  border: 1px solid #e3e3e3;
+  border-radius: 8px;
+}
